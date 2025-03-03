@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT | KAMAY NG PAG ASA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('https://media.discordapp.net/attachments/1262445185078657054/1346161633143296000/bg.jpg?ex=67c72e37&is=67c5dcb7&hm=e562d34f46cfa0cfcfe602875ea09b4b33688df535e8de17eec1017d146ca33f&=&format=webp&width=896&height=671') no-repeat center center/cover;
+            position: relative;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            z-index: -1;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #8B0000;
+            padding: 10px 20px;
+        }
+
+        .navbar .links {
+            display: flex;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #B22222;
+            margin: 0 5px;
+            
+        }
+
+        .navbar a:hover {
+            background-color: #FF6347;
+        }
+
+        .KATROPA {
+            color: white;
+            font-weight: bold;
+        }
+        .main-content {
+            text-align: center;
+            margin: 50px 20px;
+            color: white;
+        
+        }
+
+        .team {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: slideUp 1.5s ease-out;
+        }
+
+        .team img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            border: 3px solid white;
+        }
+
+        .team a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .team a:hover {
+            color: #FF6347;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .member {
+            text-align: center;
+            margin: 15px;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        footer {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="KATROPA">KAMAY NG PAGASA</p>
+        <div class="links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="contact.html">Contact</a>
+            <a href="donate.html">Donate</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>About Our Project</h1>
+        <p>
+            Ang aming proyekto ay naglalayong magbigay ng kasiyahan at saya sa mga tao sa St. 
+            Maria de Mattias Center Inc. sa pamamagitan ng iba't ibang makabuluhang aktibidad. 
+            Isa sa aming pangunahing layunin ay ang pagsasagawa ng isang feeding program upang matulungan ang mga nangangailangan at mapabuti ang kanilang kalusugan. 
+            Sa simpleng paraan na ito, nais naming iparamdam sa kanila ang pagmamalasakit, pag-asa, at pagmamahal mula sa aming grupo. 
+            Umaasa kami na sa pamamagitan ng proyektong ito, makapagdudulot kami ng positibong pagbabago sa kanilang buhay at makapagbibigay ng inspirasyon sa iba upang magkaisa sa pagtulong sa kapwa.
+        </p>
+    </div>
+
+    <div class="team">
+        <h1>OUR TEAM</h1>
+        <div class="team-members">
+            <div class="member">
+                <a href="https://www.facebook.com/ashe.emmanuel.francisco" target="_blank">
+                    <img src="https://scontent.fmnl17-8.fna.fbcdn.net/v/t1.15752-9/480018669_608350352082116_6613027710283381060_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFzxwyrdjVvlpoKTj4nryU7NPj9HrZHJBg0-P0etkckGAaSvKm8ciUixjB8ticTq4uj-pVRHbuj892o5vyskonx&_nc_ohc=eMDQJ-_9HXAQ7kNvgHDMzLE&_nc_oc=Adg-IHzCo7jEmLU8S0WG_i4bqZC58ab5q2npEQD5WHVKExOj5B-AkM_0tvBnC4tCNX8&_nc_zt=23&_nc_ht=scontent.fmnl17-8.fna&oh=03_Q7cD1gG6qU8vdxqFXxJj6-5pO9FKB3suA6EpZKtMFZw0Jsl6aA&oe=67ED544C" alt="Ashe">
+                    <p>Ashe Emmanuel C. Francisco</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/jalil.diso" target="_blank">
+                    <img src="https://scontent.fmnl17-8.fna.fbcdn.net/v/t39.30808-1/481046903_1166553035014484_5271544790455913243_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeEPZUVbXZAkvYEz81qnRT46GurX9LNK5j0a6tf0s0rmPZTGAlv_rjA9_Oqz4uweM9QJlikf-oGo9dYF1u98Tpyd&_nc_ohc=75Aig1vhosQQ7kNvgHBHYVC&_nc_oc=AdihCkPTqEYOcdrjoRhDizZ89-TqjlJYCosSZ7fmd-FPDEQtbs5-_dzsmOdSdivDRZs&_nc_zt=24&_nc_ht=scontent.fmnl17-8.fna&_nc_gid=AzrTSNpqg9YKrg1aebR6XG8&oh=00_AYAOrXkQmhngQSAAzf3YdX-5JpwjsmUrYLv90DvhKf9_0g&oe=67CBAA14" alt="Jalil">
+                    <p>Jalilkhan S. Diso</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/jumuel.mathew" target="_blank">
+                    <img src="https://scontent.fmnl17-8.fna.fbcdn.net/v/t1.15752-9/479733908_980686733582662_3218115324602299112_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGnV0W0sPwykUBppy50BOYvnlnEsVARGEueWcSxUBEYS0YLyH6e-Uv6y2j5ASH4wiooF55JNWoDeiGOgcw2rcY2&_nc_ohc=b7RiGxNR2_kQ7kNvgHokkzR&_nc_oc=AdhDY42Mel3PAAzqIkTVswJmFLW95jvspfjJetYq2X_kuPucicrV6UckJyJssoKGxOw&_nc_zt=23&_nc_ht=scontent.fmnl17-8.fna&oh=03_Q7cD1gEU8zB0sNcd3aDCV27z7lG3VMjQVuy1VPjiKysJN8SHaw&oe=67ED39B2" alt="Jumuel">
+                    <p>Jumuel Mathew B. Bucag</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/cedrick.melgar.9" target="_blank">
+                    <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/480858334_1121688209695893_5040591791924955527_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGQOXaWWanUe0PlvrjmzwlHPazwj1efXoQ9rPCPV59ehCTCRknBo63sLdx6wtW2SbuNKHpoMwUrtv8TExnBmgbr&_nc_ohc=4tSMRimsoF0Q7kNvgG_CP9V&_nc_oc=AdhqdQWWygKRKic5cmJE0OsaeCB-OhEfpw8D7vfnRmu7iCE4gKdjpeeOM43Nt_lmPDI&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&oh=03_Q7cD1gHr7SqxQ65AQG544A7n_rYGOeJ82P-TmmSW7iOvXRa2cw&oe=67ED68E6" alt="Cedrick">
+                    <p>Luiz Cedrick C. Melgar</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/profile.php?id=100079916643693" target="_blank">
+                    <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/481071027_648694434201857_6040014260822249167_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeECZsWKHF5hEJiXgPD4OLQ0bnZPw4hIni9udk_DiEieL5Sv5-KqwtNnCyehsA56H8jTA7Dvew5Ue810k0HbiVJW&_nc_ohc=fkEjqVhh8uAQ7kNvgGDGikY&_nc_oc=AdiI951wGYaUYo6-w1xUJ0cgpG34YzdeYPCUaf-VxdEK-yLdJIjQH_qFvLMPfKrYA8I&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&oh=03_Q7cD1gEdtICOHGLKZZUKgwSXfF2C0oHjqY3Gv-zwi7dgyHigUQ&oe=67ED579F" alt="Peter">
+                    <p>Peter Germono</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/xyrastephanie.medillo.1" target="_blank">
+                    <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/463279448_1092517959211227_2692680267925052158_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGYdpg5Kp8_YEjCVkqOD38NEOvw87E7b2cQ6_DzsTtvZzWJyycb-LJTo5g1UKHIFMM4gzVSMIFjuINTwOuMCL1L&_nc_ohc=l_-3Tx79m9YQ7kNvgGvut5W&_nc_oc=AdiwaSxFOEVgKXGFxx2i5z1U7gFiwaMNmKx8neah2dxmQQwYyAZ0ReQfbOvRSlvNaa8&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=AHQKLTWyUGB6yzL3HLGH01v&oh=00_AYAcobOadWOanOlHuv2t4Kmus7ccxhU3x2w06cBn9mR8Pg&oe=67CBC78F" alt="Xyra">
+                    <p>Xyra Stephanie M. Boy</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Community Outreach. All rights reserved.
+    </footer>
+</body>
+</html>
