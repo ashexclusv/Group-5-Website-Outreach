@@ -1,1 +1,193 @@
-# Group-5-Website-Outreach
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | KAMAY NG PAG ASA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('https://media.discordapp.net/attachments/1262445185078657054/1346161633143296000/bg.jpg?ex=67c72e37&is=67c5dcb7&hm=e562d34f46cfa0cfcfe602875ea09b4b33688df535e8de17eec1017d146ca33f&=&format=webp&width=896&height=671') no-repeat center center/cover;
+            position: relative;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            z-index: -1;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #8B0000;
+            padding: 10px 20px;
+        }
+
+        .navbar .links {
+            display: flex;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #B22222;
+            margin: 0 5px;
+        }
+
+        .navbar a:hover {
+            background-color: #FF6347;
+        }
+
+        .hero {
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s forwards ease-out;
+            flex: 1;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .KATROPA {
+            color: white;
+            font-weight: bold;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+
+        .upcoming-events {
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            color: white;
+        }
+
+        .event-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 80px;
+        }
+
+        .event-card {
+            margin: 10px;
+            padding: 20px;
+            background-color: #B22222;
+            border: 2px solid #FF6347;
+            border-radius: 5px;
+            width: 250px;
+            color: white;
+            text-align: center;
+        }
+
+        .event-card h3 {
+            margin-top: 0;
+            background-color: #FF6347;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .photo-container img {
+            width: 500px;
+            height: 400px;
+            border: 3px solid red;
+            border-radius: 5px;
+            animation: moveAround 5s infinite alternate ease-in-out;
+        }
+
+        @keyframes moveAround {
+            0% { transform: translate(0, 0); }
+            25% { transform: translate(10px, -10px); }
+            50% { transform: translate(-10px, 10px); }
+            75% { transform: translate(10px, 10px); }
+            100% { transform: translate(-10px, -10px); }
+        }
+
+        footer {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="KATROPA">KAMAY NG PAGASA</p>
+        <div class="links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="contact.html">Contact</a>
+            <a href="donate.html">Donate</a>
+        </div>
+    </div>
+
+    <div id="home" class="hero">
+        <h1>St. Maria de Mattias</h1>
+        <p>Pagbibigay ngiti sa kabataan.</p>
+    </div>
+
+    <div class="photo-container">
+        <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/482055150_1588176551675884_2354664571841958392_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGgANwrxpVKUr_BuN33irqwKZM0NvFHh6YpkzQ28UeHpmzOL6K471tfnrNr4XCWEUhbVvM_KFCoVSK66TlmP033&_nc_ohc=oHKqop2XInQQ7kNvgGHAhpk&_nc_oc=Adjs55EPLjbGW3qqKADbaJSJWi1X5z4TzmU1dUDgntArpyR3D9BFfVsoHbnSCPfaBgk&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&oh=03_Q7cD1gEFzdoaVrbbbrarNRHu8JYX8ddcPgHfZciP34K9Mwp4Ig&oe=67ED34CC" alt="Left Image">
+        <img src="https://scontent.fmnl17-8.fna.fbcdn.net/v/t1.15752-9/482573297_1401595674582672_8760988346438242855_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFqd0vfSlLJIhkxytAs17eh0wDJpztxXhzTAMmnO3FeHGQtA3MOxekQx5okZUDn-7S8JxcxG_qy0q1SYJmqetIf&_nc_ohc=p3nFhmROt4EQ7kNvgEgGm13&_nc_oc=AdiCV6BrCgCzX76L0jMcHH8nMPX-4Rp_-iYUYf6jey0h0QR4dJvvVrRorsVuxKUnw-s&_nc_zt=23&_nc_ht=scontent.fmnl17-8.fna&oh=03_Q7cD1gGHcbouFc3_gX3FBJrHskNO9sfkIRIiA4nxKccGs-zSiA&oe=67ED3EF9" alt="Right Image">
+    </div>
+
+    <div class="event-container">
+        <div class="event-card">
+            <h3>Pagbibigay ngiti sa kabataan</h3>
+            <p>Location: St. Maria de Mattias Center Inc.</p>
+            <p>Date: January 25, 2025</p>
+            <p>Samahan nyo kami sa pagbibigay ngiti sa kabataan</p>z
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Community Outreach. All rights reserved.
+    </footer>
+</body>
+</html>
